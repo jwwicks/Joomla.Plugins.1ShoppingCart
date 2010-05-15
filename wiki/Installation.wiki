@@ -2,7 +2,7 @@
 
 = Introduction =
 
-<p>Before installing the plugin in Joomla you'll want to gather some critical information from your 1ShoppingCart or Private label reseller administration area. You'll also need a Professional version of the [http://www.1shoppingcart.com/app/?pr=1&id=172687 1ShoppingCart] product since this plugin relies on API calls that are not available in the AutoResponder, Starter or Basic versions. It is also not available in the Test Drive despite the test drive being a "Professional" version.</p>
+<p>Before installing the plugin in Joomla you'll want to gather some critical information from your <a href="http://www.1shoppingcart.com/app/?pr=1&id=172687" target="_blank">1ShoppingCart</a> or Private label reseller administration area. You'll also need a Professional version of the 1ShoppingCart product since this plugin relies on API calls that are not available in the AutoResponder, Starter or Basic versions. It is also not available in the Test Drive despite the test drive being a "Professional" version.</p>
 <p>*If you don't have 1SC Professional this plugin will not work*.</p>
 
 == Before You Begin ==

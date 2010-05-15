@@ -1,0 +1,32 @@
+#summary Installation instructions for the plugin.
+
+= Introduction =
+
+<p>Before installing the plugin in Joomla you'll want to gather some critical information from your 1ShoppingCart or Private label reseller administration area. You'll also need a Professional version of the [http://www.1shoppingcart.com/app/?pr=1&id=172687 1ShoppingCart] product since this plugin relies on API calls that are not available in the AutoResponder, Starter or Basic versions. It is also not available in the Test Drive despite the test drive being a "Professional" version.</p>
+<p>*If you don't have 1SC Professional this plugin will not work*.</p>
+
+== Before You Begin ==
+  # Log into your 1ShoppingCart administration area
+  # Go to My Account/Status Summary
+  # Take note your Merch ID
+  # Go to My Account/API Settings
+  # Take note of the Merchant API Key
+  # Go to Products/Manage Products
+  # Open a product by clicking the link for the Product Name
+  # Take note of the Product ID in the Details tab
+  # Click the Links tab
+  # Take note of the mid and Secure cart URL location in the Product Links group
+
+= Install the Plugin =
+  # Login to the Joomla Administration area
+  # Install the plugin using the Extension Manager
+  # Go to the Plugin Manager after the install completes
+  # Edit the settings using the information from 1ShoppingCart
+  # Enable the plugin
+
+= Create a Product Article =
+  # Go to the Artcile Manager
+  # Create a new article
+  # Add the plugin code `{jww1shoppingcart product=[0123456]}` where 0123456 is the Product ID from 1SC
+  # Save and publish the article
+  # Repeat for other products as needed

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install method="upgrade" version="1.5" type="plugin" group="content" >
+  <name>Content - JWW 1ShoppingCart</name>
+  <creationDate>April 2010</creationDate>
+  <author>John Wicks</author>
+  <authorEmail>info@jwwicks.com</authorEmail>
+  <authorUrl>http://www.jwwicks.com</authorUrl>
+  <copyright>Copyright (C) 2010 JWWicks.com</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <version>0.1.0</version>
+  <description>1ShoppingCart plugin for Joomla! 1.5. Requires mootools 1.1, Syntax: {jww1shoppingcart product=[0123456]}</description>
+  <files>
+	<filename plugin="jww_1shoppingcart">jww_1shoppingcart.php</filename>
+	<filename>jww_1shoppingcart.xml</filename>
+	<folder>jww_1shoppingcart</folder>
+  </files>
+  <languages>
+  	<language tag="en-GB" >en-GB.plg_content_jww_1shoppingcart.ini</language>
+  </languages>
+  <params>
+	<param name="merchantId" type="text" default="000000" label="1SC Merchant ID" description="Merchant ID assigned to account at 1ShoppingCart or affiliates" />
+	<param name="merchantKey" type="text" default="abcdef000000abcdef000000abcdef00" label="1SC Merchant Key" description="Merchant Key assigned to account at 1ShoppingCart or affiliates" />
+	<param name="apiURI" type="text" default="https://www.mcssl.com" label="1SC API URI" description="Uniform Resource Indentifier for the API" />
+	<param name="checkoutSteps" type="radio" default="1" label="Checkout Steps" description="Number of 1SC steps to use in the checkout process">
+	 <option value="1">1Step</option>
+	 <option value="2">2Step</option>
+	</param>
+	<param name="secureMerchantId" type="text" default="12345ACF-A123-B123-C123-123456789DEFA" label="1SC SecureCart Merchant ID" description="Merchant ID used in SecureCart transactions on 1ShoppingCart or affiliates" />
+	<param name="secureCartURI" type="text" default="http://www.webmarketingmagic.com/SecureCart/SecureCart.aspx" label="1SC SecureCart URI" description="Uniform Resource Indentifier for the 1ShoppingCart SecureCart location" />
+  </params>
+ </install>

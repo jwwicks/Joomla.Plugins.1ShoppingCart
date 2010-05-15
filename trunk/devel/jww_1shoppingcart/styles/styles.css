@@ -1,0 +1,16 @@
+/**
+ * @version $Id$
+ * @package jww_1shoppingcart
+ * @author John Wicks
+ * @copyright Copyright (C) 2010 JWWicks. All rights reserved.
+ * @license GNU/GPL
+ *
+ */
+div.ProductInfo a.ProductImageUrl {float: left;	margin: 0 10px 10px 0;}
+div.ProductInfo ul {list-style-type: none;}
+div.ProductInfo ul li {font-style: italic;}
+div.ProductInfo ul li span {font-weight: bold;}
+div.ProductInfo ul li.ProductPrice {margin-top: 10px;}
+div.ProductInfo ul li.ProductPrice span,div.ProductInfo ul li.ProductSalePrice span {font-size: 1.1em;}
+div.ProductInfo ul li.ProductCartLink {display: block-inline; float: right; margin: -30px 0 0 -50px;}
+.clearBoth {clear:both;}

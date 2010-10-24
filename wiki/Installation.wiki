@@ -8,15 +8,17 @@
 == Before You Begin ==
   # Log into your 1ShoppingCart administration area
   # Go to My Account/Status Summary
-  # Take note your Merch ID
+  # Take note your Merch ID (*1SC Merchant ID*)
   # Go to My Account/API Settings
-  # Take note of the Merchant API Key
+  # Take note of the Merchant API Key (*1SC Merchant Key*)
+  # Go to My Account/API Manual
+  # Look for the "The quickest way to get started" paragraph. There's a link in that paragraph which should be something like https://www.mcssl.com/API/{1SC Merchant ID}. Just need the first part http://www.mcssl.com/ (*1SC API URL*)
   # Go to Products/Manage Products
   # Open a product by clicking the link for the Product Name
   # Take note of the Product ID in the Details tab
   # Click the Links tab
-  # Take note of the mid (SecureCart Merchant ID) parameter in the cart URL location in the Product Links group. Should be a 32 character ID separated by dashes ?mid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-  # Take note of the SecureCart URL. Same cart link as above just need the first part. Something like: http://www.1shoppingcart.com/SecureCart/SecureCart.aspx 
+  # Take note of the mid (*SecureCart Merchant ID*) parameter in the cart URL location in the Product Links group. Should be a 32 character ID separated by dashes ?mid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX (*1SC Secure Cart Merchant ID*)
+  # Take note of the SecureCart URL. Same cart link as above just need the first part. Something like: http://www.1shoppingcart.com/SecureCart/SecureCart.aspx (*1SC Secure Cart URL*)
 
 = Install the Plugin =
   # Login to the Joomla Administration area

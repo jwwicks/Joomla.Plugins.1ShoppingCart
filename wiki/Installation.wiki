@@ -15,7 +15,8 @@
   # Open a product by clicking the link for the Product Name
   # Take note of the Product ID in the Details tab
   # Click the Links tab
-  # Take note of the mid and Secure cart URL location in the Product Links group
+  # Take note of the mid (SecureCart Merchant ID) parameter in the cart URL location in the Product Links group. Should be a 32 character ID separated by dashes ?mid=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+  # Take not of the SecureCart URL. Same cart link just need the first part. Something like: http://www.1shoppingcart.com/SecureCart/SecureCart.aspx 
 
 = Install the Plugin =
   # Login to the Joomla Administration area
